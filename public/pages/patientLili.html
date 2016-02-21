@@ -3,6 +3,20 @@
 
 <head>
 
+	<style>
+	    .selected {
+      		background: #f0951d;
+      		border: 0;
+    	  	box-shadow: 0 2px 6px rgba(0, 0, 0, .5) inset;
+    	}
+    	 td {
+      		border: 1px solid #ccc;
+      		color: #444;
+      		line-height: 22px;
+      		text-align: center;
+    	}
+  </style>
+
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -122,24 +136,10 @@
             <!-- /.navbar-static-side -->
         </nav>
 
-        
         <div id="page-wrapper">
- 		<div class="row">
- 			<a href="/pages/patient.html">
-				<button type="button" class="btn">
-                  	<i class="fa fa-arrow-left"></i>
-                </button>
-			
-			</a>
-			
-			 
-			
-		</div>
-
-
-           <div class="row">
+            <div class="row">
                 <div class="col-lg-12">
-                    <h1 style="margin-left: 20px;">Mark Chignell</h1>
+                    <h1 style="margin-left: 20px;">Lili Liu</h1>
           
                 <!-- /.col-lg-12 -->
             </div>
@@ -149,7 +149,7 @@
                     
                                  <div class="col-lg-12">
         
-                           <div class="panel-group" id="accordion">
+                            <div class="panel-group" id="accordion">
                                 <div class="">
                                     <div>
                                         <h4 class="panel-title">
@@ -158,7 +158,7 @@
                                     </div>
                                     <div id="collapseOne" class="panel-collapse collapse" aria-expanded="false" style="height: 0px;">
                                         <div class="panel-body">
-                                        <img src="../images/Mark.jpg" alt="person" style="width:200px;height:150px;">
+                                        <img src="../images/Lili.jpg" alt="person" style="width:200px;height:150px;">
                                         <div>
                                         <br>
                                         <b>Address: </b> 111 Street, 11 Ave
@@ -175,55 +175,128 @@
                              </div>
                              </div>                                           
                         <!-- .panel-body -->
-                        
-                        <div class="col-lg-12">
+                 
+            <!-- /.row -->
+            
+            <div class="row">
+                  <div class="col-lg-3 col-md-6">
+                    <div class="panel panel-green">
+                        <div class="panel-heading">
+                            <div class="row">
+                                <div class="col-xs-3">
+                                    <i class="fa fa-tasks fa-5x"></i>
+                                </div>
+                                <div class="col-xs-9 text-right">
+                                    <div class="huge">10</div>
+                                    <div>Tasks</div>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="/pages/tasks.html">
+                            <div class="panel-footer">
+                                <span class="pull-left">View Details</span>
+                                <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
+                                <div class="clearfix"></div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="panel panel-yellow">
+                        <div class="panel-heading">
+                            <div class="row">
+                                <div class="col-xs-3">
+                                    <i class="fa fa-smile-o fa-5x"></i>
+                                </div>
+                                <div class="col-xs-9 text-right">
+                                    <div class="huge">3</div>
+                                    <div>Tokens Earned</div>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="/pages/tokens.html">
+                            <div class="panel-footer">
+                                <span class="pull-left">View Details</span>
+                                <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
+                                <div class="clearfix"></div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="panel panel-primary">
+                        <div class="panel-heading">
+                            <div class="row">
+                                <div class="col-xs-3">
+                                    <i class="fa fa-trophy fa-5x"></i>
+                                </div>
+                                <div class="col-xs-9 text-right">
+                                    <div class="huge">3</div>
+                                    <div>Badges</div>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="/pages/ProfileSpecificBadges.html">
+                            <div class="panel-footer">
+                                <span class="pull-left">View Details</span>
+                                <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
+                                <div class="clearfix"></div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="panel panel-red">
+                        <div class="panel-heading">
+                            <div class="row">
+                                <div class="col-xs-3">
+                                    <i class="fa fa-comments-o fa-5x"></i>
+                                </div>
+                                <div class="col-xs-9 text-right">
+                                    <div class="huge">4</div>
+                                    <div>Notes</div>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="#">
+                            <div class="panel-footer">
+                                <span class="pull-left">View Details</span>
+                                <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
+                                <div class="clearfix"></div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- /.row -->
+            <div class="row">
+                <div class="col-lg-8">
                     <div class="panel panel-default">
                         <div class="panel-heading">
-                            Aquired Token Details
-						  <button type="button" class="btn btn-success" style="position: relative; right: -780px">
-                          	<i class="fa fa-plus"></i>
-                          </button>
+                            Lili's Token's Earned for the Day
                         </div>
-
                         <!-- /.panel-heading -->
                         <div class="panel-body">
-                            <div class="table-responsive">
-                                <table class="table">
-                                    <thead>
-                                        <tr>
-                                            <th>ID</th>
-                                            <th>Task Name</th>
-                                            <th>Date</th>
-                                            <th>Reporting Device</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr>
-                                            <td>1</td>
-                                            <td>Wash Hands</td>
-                                            <td>02-20-2016 14:20:22</td>
-                                            <td>Sensor 2</td>
-                                        </tr>
-                                        
-                                        <tr>
-                                            <td>2</td>
-                                            <td>Bruth Teeth</td>
-                                            <td>02-20-2016 21:00:21</td>
-                                            <td>Sensor 4</td>
-                                        </tr>
-                                           <tr>
-                                     
-                                    </tbody>
-                                </table>
-                            </div>
-                            <!-- /.table-responsive -->
+                            <div id="bar-mark-feb21"></div>
                         </div>
                         <!-- /.panel-body -->
                     </div>
                     <!-- /.panel -->
                 </div>
-                 
-
+                <!-- /.col-lg-6 -->
+                <div class="col-lg-4">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            Distribution of Lili's Tokens
+                        </div>
+                        <!-- /.panel-heading -->
+                        <div class="panel-body">
+                            <div id="earned-tokens-mark"></div>
+                        </div>
+                        <!-- /.panel-body -->
+                    </div>
+                    <!-- /.panel -->
+                </div>
         </div>
         <!-- /#page-wrapper -->
 
@@ -242,7 +315,8 @@
     <!-- Morris Charts JavaScript -->
     <script src="../bower_components/raphael/raphael-min.js"></script>
     <script src="../bower_components/morrisjs/morris.min.js"></script>
-    <script src="../js/morris-data.js"></script>
+    <script src="../js/morris-mark-donut.js"></script>
+    <script src="../js/morris-mark-bar21.js"></script>
 
     <!-- Custom Theme JavaScript -->
     <script src="../dist/js/sb-admin-2.js"></script>
@@ -250,3 +324,15 @@
 </body>
 
 </html>
+
+<script>
+  function select1(id) {
+    document.getElementById(id).className = "selected";
+    document.getElementById('20').className = "";
+  }
+  
+    function select2(id) {
+    document.getElementById(id).className = "selected";
+     document.getElementById('21').className = "";
+  }
+  </script>
