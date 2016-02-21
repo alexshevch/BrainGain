@@ -438,11 +438,11 @@ table.dataTable thead .sorting:after {
 	background-size: 175px 125px;
 }
 
-<<<<<<< Upstream, based on b24f8ca57c4dd95f1f18166a2daa69d4c73910eb
+
 .badge-image12 {
     background: url("../../images/badges/50s.png");
     background-size: 175px 125px;
-=======
+}
 .badge-compare {
 	width:75px;
 	height:75px;
@@ -466,7 +466,6 @@ table.dataTable thead .sorting:after {
 .badge-compare3 {
 	background: url("../../images/badges/Hygiene.png");
 	background-size: 75px 75px;
->>>>>>> 97f65c2 Creation of compare page
 }
 
 .overlay {
