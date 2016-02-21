@@ -367,3 +367,70 @@ table.dataTable thead .sorting:after {
 	float: right;
 	margin: 10px 8px;
 }
+
+/*
+ * Default Navbar Recoloring
+ */
+/*.navbar-default {
+    background-color: #9b59b6;
+    border-color: #8e44ad;
+}
+
+.navbar-brand {
+	color: #ecf0f1;
+}
+
+.navbar-brand:hover, .navbar-brand::focus {
+	color: #ecdbff;
+}
+
+.navbar-nav li a {
+	color: #ecf0f1;
+}
+
+.navbar-nav li a:hover, .navbar-nav li a:focus {
+	color: #ecdbff;
+}
+
+.active a, .active a:hover, .active a:focus {
+	color: #ecdbff;
+	background-color: #8e44ad;
+}
+
+.open a, .open a:hover, .open a:focus {
+	color: #ecdbff;
+	background-color: #8e44ad;
+}
+
+.caret {
+	border-top-color: #ecdbff;
+	border-bottom-color: #ecdbff;
+}
+
+.dropdown a.caret {
+	border-top-color: #ecf0f1;
+	border-bottom-color: #ecf0f1; 
+}
+
+.navbar-toggle {
+	border-color: #8e44ad;
+}
+
+.navbar-toggle:hover, .navbar-toggle:focus {
+	background-color: #8e44ad;
+}
+
+.navbar-toggle .icon-bar {
+	background-color: #ecf0f1;
+}
+
+@media (max-width: 767px) {
+    .navbar-default .navbar-nav .open .dropdown-menu li a {
+        color: #ecf0f1;
+	}
+
+	.navbar-default .navbar-nav .open .dropdown-menu li a:hover, .navbar-default .navbar-nav .open .dropdown-menu li a:focus {
+        color: #ecdbff;
+        background-color: #8e44ad;
+    }
+}*/
