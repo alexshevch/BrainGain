@@ -438,6 +438,10 @@ table.dataTable thead .sorting:after {
 	background-size: 175px 125px;
 }
 
+.badge-image12 {
+    background: url("../../images/badges/50s.png");
+    background-size: 175px 125px;
+}
 
 .overlay {
 	background-color: rgba(70, 90, 120, 0.3);
