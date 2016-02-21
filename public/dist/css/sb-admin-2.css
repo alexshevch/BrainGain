@@ -438,9 +438,35 @@ table.dataTable thead .sorting:after {
 	background-size: 175px 125px;
 }
 
+<<<<<<< Upstream, based on b24f8ca57c4dd95f1f18166a2daa69d4c73910eb
 .badge-image12 {
     background: url("../../images/badges/50s.png");
     background-size: 175px 125px;
+=======
+.badge-compare {
+	width:75px;
+	height:75px;
+	position: relative;
+	border: 2px solid #000;
+	border-radius: 16px;
+}
+
+.badge-compare9 {
+	background: url("../../images/badges/Animals.png");
+	background-size: 75px 75px;
+}
+.badge-compare1 {
+	background: url("../../images/badges/Mobility.png");
+	background-size: 75px 75px;
+}
+.badge-compare2 {
+	background: url("../../images/badges/ColorSorting.png");
+	background-size: 75px 75px;
+}
+.badge-compare3 {
+	background: url("../../images/badges/Hygiene.png");
+	background-size: 75px 75px;
+>>>>>>> 97f65c2 Creation of compare page
 }
 
 .overlay {
