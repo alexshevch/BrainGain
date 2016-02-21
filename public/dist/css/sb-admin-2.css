@@ -358,3 +358,12 @@ table.dataTable thead .sorting:after {
 .patient-name {
 	text-decoration: underline;
 }
+
+.dashboard-header {
+	display: inline-block;
+}
+
+.main-header img {
+	float: right;
+	margin: 10px 16px;
+}
