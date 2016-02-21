@@ -2,9 +2,9 @@ $(function() {
 	Morris.Bar({
 	  element: 'bar-comparison-graph',
 	  data: [
-	    { y: 'Ben', a: 20, b:17},
-	    { y: 'Sally', a: 10, b:18},
-	    { y: 'Tom', a: 15, b:22}
+	    { y: 'Mark', a: 20, b:17},
+	    { y: 'Eleni', a: 10, b:18},
+	    { y: 'Lili', a: 15, b:22}
 	  ],
 	  xkey: 'y',
 	  ykeys: ['a', 'b'],
