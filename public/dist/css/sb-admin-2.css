@@ -352,3 +352,9 @@ table.dataTable thead .sorting:after {
 .panel-yellow a:hover {
     color: #df8a13;
 }
+/*
+ * Custom Styles
+ */
+.patient-name {
+	text-decoration: underline;
+}
